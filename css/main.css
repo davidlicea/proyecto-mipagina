@@ -1,0 +1,42 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos de body*/
+body{
+    background-color: #F0F0F0;
+}
+
+/*estilos de header*/
+.menu-dist{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titulo-main{
+    font-size: 3rem;
+    color: #F0F0F0;
+}
+
+.color-burger{
+    background-color: #F0F0F0;
+}
+
+.font-color{
+    color: #F0F0F0;
+}
+
+.menu-color{
+    background-color: #21325E;
+}
+
+.menu-gap{
+    column-gap: 4rem;
+}
+
+.header-font{
+    font-family: 'Oswald', sans-serif;
+}
