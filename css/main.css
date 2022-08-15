@@ -40,3 +40,20 @@ body{
 .header-font{
     font-family: 'Oswald', sans-serif;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo-main{
+    width: 15rem;
+    border: solid violet;
+    display: flex;
+    justify-content: center;
+    transition: 2s;
+}
+.subtitulo-main:hover{
+    transition: 2s;
+    transform: scale(4);
+}
